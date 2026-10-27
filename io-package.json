@@ -1,0 +1,75 @@
+{
+    "common": {
+        "name": "meteo-france",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Météo France",
+        "titleLang": {
+            "en": "Météo France",
+            "de": "Météo Frankreich",
+            "ru": "Метео Франс",
+            "pt": "Météo França",
+            "nl": "Météo Frankrijk",
+            "fr": "Météo France",
+            "it": "Météo France",
+            "es": "Météo Francia",
+            "pl": "Meteo Francja",
+            "zh-cn": "法国气象局"
+        },
+        "desc": {
+            "en": "Météo-France weather forecast, rain and vigilance (alerts)",
+            "de": "Météo-France Wettervorhersage, Regen und Wachsamkeit (Warnungen)",
+            "ru": "Прогноз погоды Météo-France, дождь и бдительность (оповещения)",
+            "pt": "Météo-France previsão do tempo, chuva e vigilância (alertas)",
+            "nl": "Météo-France weersvoorspelling, regen en waakzaamheid (waarschuwingen)",
+            "fr": "Météo-France, pluie et vigilance (alertes)",
+            "it": "Meteo Météo-France, pioggia e vigilanza (avvisi)",
+            "es": "Previsión meteorológica, lluvia y vigilancia de Météo-France (alertas)",
+            "pl": "Prognoza pogody, deszcz i czujność (ostrzeżenia) Météo-Francja",
+            "zh-cn": "法国气象局天气预报、降雨和警惕（警报）"
+        },
+        "authors": [
+            "SuperDjipi <boss@djipi.club>"
+        ],
+        "keywords": [
+            "weather",
+            "meteo-france"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "meteo-france.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/SuperDjipi/ioBroker.meteo-france/master/admin/meteo-france.png",
+        "readme": "https://github.com/SuperDjipi/ioBroker.meteo-france/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "weather",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
